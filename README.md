@@ -1,4 +1,4 @@
-# Volt::Bootstrap
+# Volt::Materialize
 
 Adds Materialize to your Volt app!
 

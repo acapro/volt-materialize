@@ -20,6 +20,10 @@ And then execute:
 
 Now you can use Materializecss in your application's views. For more information on how to use it visit http://materializecss.com/
 
+## Changelog
+
+0.0.2 - Fixes fonts and icon loading issue
+
 ## Contributing
 
 1. Fork it ( http://github.com/acapro/volt-materialize/fork )

@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 
 Add the bootstrap component to your application's `app/main/config/dependencies.rb`:
 
-	component 'materialze'
+    component 'materialze'
 
 And then execute:
 
@@ -19,6 +19,28 @@ And then execute:
 ## Usage
 
 Now you can use Materializecss in your application's views. For more information on how to use it visit http://materializecss.com/
+
+### Javascript Components
+
+Certain elements (for example the tooltip) need to be initialised since they are added dynamically in Volt.  Since Volt uses Opal, this will need to be translated.  This can be done inside of your controller:
+
+`app/main/controllers/main_controller.rb`:
+
+    def index
+      # Add code for when the index view is loaded
+      Document.ready? do
+        if RUBY_PLATFORM == 'opal'
+          # run some JS code
+          `$('.tooltipped').tooltip({delay: 50});`
+        end      
+      end
+    end
+
+`app/main/views/main/index.html`:
+
+    <a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="I am tooltip">Hover me!</a>
+
+This requires Volt -v '0.8.27.beta3' or higher.
 
 ## Changelog
 

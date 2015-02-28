@@ -22,7 +22,8 @@ Now you can use Materializecss in your application's views. For more information
 
 ## Changelog
 
-0.0.2 - Fixes fonts and icon loading issue
+0.0.3 - Fixes fonts and icon loading issue
+0.0.1 - Add materialize alpha release v0.95.3
 
 ## Contributing
 

@@ -18,11 +18,11 @@ And then execute:
 
 ## Usage
 
-Now you can use Materializecss in your application's views. For more information on how to use it visit http://http://materializecss.com/
+Now you can use Materializecss in your application's views. For more information on how to use it visit http://materializecss.com/
 
 ## Contributing
 
-1. Fork it ( http://github.com/acapro/volt-bootstrap/fork )
+1. Fork it ( http://github.com/acapro/volt-materialize/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

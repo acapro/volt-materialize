@@ -24,7 +24,7 @@ Now you can use Materializecss in your application's views. For more information
 
 Requires Volt -v '0.8.27.beta3' or higher.
 
-Materialize requires javascript components to be initialized when added dynamically.  In Volt this can be achieved by using controller actions.  Using {action}_ready ensures the instantiation gets fired when the view is rendered.
+Materialize requires javascript components to be initialized when added dynamically.  In Volt this can be achieved by using controller actions.  Using {action}_ready ensures the instantiation gets fired after the view is rendered.
 
 `app/main/controllers/main_controller.rb`:
 

@@ -59,7 +59,9 @@ You can also use Opal's `Document.ready?` for views that stay rendered (for exam
 ## Changelog
 
 0.0.4 - Added documentation for Javascript Components
+
 0.0.3 - Fixes fonts and icon loading issue
+
 0.0.1 - Add materialize alpha release v0.95.3
 
 ## Contributing

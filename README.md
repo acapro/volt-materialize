@@ -51,7 +51,7 @@ You can also use Opal's `Document.ready?` for views that stay rendered (for exam
     <nav>
       <div class="nav-wrapper container">
         <ul class="left hide-on-med-and-down">
-          <a href="#" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="I am tooltip">Nav Link</a>
+          <li><a href="#" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="I am tooltip">Nav Link</a></li>
         </ul>
       </div>
     </nav>

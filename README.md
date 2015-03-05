@@ -8,7 +8,7 @@ Add this line to your application's Gemfile:
 
     gem 'volt-materialze'
 
-Add the bootstrap component to your application's `app/main/config/dependencies.rb`:
+Add the materialize component to your application's `app/main/config/dependencies.rb`:
 
     component 'materialze'
 
@@ -30,31 +30,13 @@ Materialize requires javascript components to be initialized when added dynamica
 
     def index_ready
       # Initialize the tooltip when the index view is ready
-      `$('.tooltipped').tooltip(); 
+      `$('.tooltipped').tooltip();`
     end
 
 `app/main/views/main/index.html`:
 
     <a class="btn tooltipped" data-position="bottom" data-delay="50" data-tooltip="I am tooltip">Hover me!</a>
 
-You can also use Opal's `Document.ready?` for views that stay rendered (for example a navbar) directly inside the controller.
-
-`app/main/controllers/main_controller.rb`:
-
-    Document.ready? do
-      # Initialize the tooltip
-      `$('.tooltipped').tooltip();` 
-    end
-
-`app/main/views/main/main.html`:
-
-    <nav>
-      <div class="nav-wrapper container">
-        <ul class="left hide-on-med-and-down">
-          <li><a href="#" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="I am tooltip">Nav Link</a></li>
-        </ul>
-      </div>
-    </nav>
 
 ## Changelog
 

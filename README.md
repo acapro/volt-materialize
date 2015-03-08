@@ -6,11 +6,11 @@ Adds Materialize to your Volt app!
 
 Add this line to your application's Gemfile:
 
-    gem 'volt-materialze'
+    gem 'volt-materialize'
 
 Add the materialize component to your application's `app/main/config/dependencies.rb`:
 
-    component 'materialze'
+    component 'materialize'
 
 And then execute:
 
